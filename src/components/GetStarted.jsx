@@ -16,6 +16,7 @@ const GetStarted = () => (
           src={arrowUp}
           alt="arrow"
           className="w-[23px] h-[23px] object-contain"
+          loading="lazy"
         />
       </div>
       <div className={`${style.flexStart} flex-row`}>

@@ -12,6 +12,7 @@ const Clients = () => (
           <img
             src={client.logo}
             alt="client"
+            loading="lazy"
             className="sm:w-[192px] w-[100px] object-contain"
           />
         </div>
