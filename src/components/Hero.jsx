@@ -46,6 +46,7 @@ const Hero = () => (
         src={robot}
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
+        loading="lazy"
       />
 
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

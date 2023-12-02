@@ -30,11 +30,13 @@ const Billing = () => (
           src={apple}
           alt="apple_store"
           className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer"
+          loading="lazy"
         />
         <img
           src={google}
           alt="google_play"
           className="w-[128px] h-[42px] object-contain cursor-pointer"
+          loading="lazy"
         />
       </div>
     </div>
